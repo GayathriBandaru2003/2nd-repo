@@ -1,0 +1,696 @@
+*{
+    margin: 0;
+}
+
+
+
+.a{
+    display:flex;
+    justify-content: center;
+    color:#FE3732;
+    font-family: "Josefin Sans";
+    font-size: 40px;
+    font-weight: 900;
+    padding: 30px 0px;
+
+}
+.main1{
+    background-image: url(/static/images/woman-bringing-dog-animal-hospital\ 1.png);
+    height: 100vh;
+    background-size: cover;
+}
+.main2{
+    background: #E4B8D1;
+    /* width: 100%; */
+    padding: 2rem 2.5rem;
+}
+.main1 .buttons{
+    display: flex;
+    justify-content: space-between;
+    padding:40px;
+}
+.main1 .buttons button{
+    padding:10px;
+}
+.contactus {
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.left-sec {
+   width: 600px;
+   height: 300px;
+   border-radius: 0px 20px 20px 0px;
+background: rgba(0, 0, 0, 0.40); 
+    display: flex;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-top: 30px;
+    align-items: center;
+    font-family: "Open Sans";
+}
+.section1{
+    color:white;
+    line-height: 27px;
+    align-items: center;
+    gap:90px;
+}
+hr{
+    border: 1px solid #DE612B;
+    width: 150px;
+}
+.section2{
+    font-size: 36px;
+    transform: rotate(90deg);
+    color:#FE3732;
+
+}
+.last{
+    font-size: 10px;
+    font-weight: 20px;
+    line-height: 18px;
+    margin-top: 30px;
+}
+.last h3{
+    text-align: left;
+}
+.last p{
+    text-align: left;
+}
+.profit{
+    font-size: 24px;
+}
+.profit strong{
+    color:#DE612B;
+}
+
+.down{
+    background-color: rgba(255, 255, 255, 0.50);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 30px 150px;
+}
+.down-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vr{
+    height: 50px;
+    border: 1px solid black;
+}
+
+.cr{
+    height: 50px;
+    border: 1px solid black;
+}
+.card1{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 2rem;
+    
+}
+.card1 h1{
+    color:#FE3732;
+    font-size: 40px;
+    font-weight: 600px;
+    line-height: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+    /* border-bottom: 2px solid #FE3732; */
+    padding-bottom: 15px;
+    position: relative; 
+    width: max-content;
+    text-align: center;
+    background-color: b;
+    margin-left:400px;
+}
+
+.card1 h1 .text-line{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 670px;
+    height: 1px;
+    background-color: red;
+    margin-left: 40px;
+    
+}
+
+.card1 li{
+    text-align: left;
+    margin-left: 20%;
+    padding: 10px;
+    list-style: none;
+}
+.card1 li img{
+    position: relative;
+    top: 8px;
+    right: 10px;
+
+}
+.main2 .card1 hr{
+    width:500px;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.card21{
+    background-color: white;
+    width: 700px;
+    padding:5px 40px;
+    line-height: 30px;
+    border-radius: 20px;
+    padding-top: 50px;
+
+    
+
+}
+.card21 h1{
+    color:#FE3732;
+    border-bottom: 1px solid #FE3732;
+    height:45px;
+    margin-bottom: 30px;
+}
+.smallbox{
+    border: 1px solid black;
+    padding:10px 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.insideofsmallbox{
+    display: flex;
+    justify-content: space-between;
+}
+.smallbox .unit{
+    border-bottom: 1px solid black;
+}
+.card21 .card21-last{
+    list-style: none;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: flex-end; */
+    /* align-items: end; */
+}
+.card21-last h3{
+    text-align: left;
+}
+.card21-last p{
+    text-align: left;
+}
+.card21-last ul{
+    margin-left: 60%;
+}
+.card22 {
+    background-color: white;
+
+}
+.card2{
+    display:flex;
+    margin-top: 50px;;
+    justify-content: space-between;
+
+}
+.card22{
+    display: flex;
+    flex-direction: column;
+    width:600px;
+    border-radius: 20px;
+    margin-left: 100px;
+    padding: 20px 0px;
+
+}
+.card22 h1{
+    color:#FE3732;
+    margin-left:40%;
+}
+.card22 input{
+    width:80%;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid black;
+    font-size: 16px;
+    margin-left: 50px;
+}
+.card22 button{
+    width: 170px;
+    height:50px;
+    margin-left: 200px;
+    border: 1px solid #FE3732;
+}
+ul{
+    list-style: none;
+}
+.card3 {
+    background-color: white;
+    border-radius: 30px;
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    height: 500px;
+    
+
+}
+
+.card31{
+    display:flex;
+    justify-content: center;
+    gap:40px;
+    flex-wrap: wrap;
+
+    
+}
+.card31 {
+    display: flex;
+    justify-content: center;
+    gap: 11px;
+    flex-wrap: wrap;
+}
+.insideofcard3 {
+    width: 110px;
+    border-bottom: 2px solid #DE612B;
+    border-left: 2px solid #DE612B;
+    height: 70px;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 20px;
+}
+.card4{
+    display: flex;
+    justify-content: space-between;
+    gap:100px;
+
+}
+.card42 h1 {
+    color: #FE3732;
+    margin-left: 40px;
+    border-bottom: 1px solid #FE3732;
+    width: 225px;
+    font-size: 30px;
+}
+.card3 h1{
+    margin-left: 700px;
+    margin-bottom: 50px ;
+    position: relative;
+    top:20px;
+    color: #FE3732;
+}
+.card3 img{
+    width: 50px;
+    height: 20px;
+    margin-top:60px;
+}
+.card32{
+    display: flex;
+    margin-top: 60px;
+    justify-content: flex-end;
+    margin-right: 220px;
+    gap:30px;
+
+}
+.card4 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 30px;
+    padding-top: 40px;
+    padding-left:40px;
+    padding-bottom: 40px;
+
+}
+.card41 img{
+    width:250px;
+    height:210px;
+    
+}
+
+.card4 .card42 img{
+    position: relative;
+    top:8px;
+    right:10px;
+}
+.card42 {
+    font-size:20px;
+    margin-left: -55px;
+    font-size: 16px;
+}
+.card5{
+    background-color: white;
+    display:flex;
+    margin-top: 40px;
+    border-radius: 40px;
+    justify-content: center;
+    gap:90px;
+}
+.card51 h1{
+    color:#FE3732;
+    border-bottom: 1px solid #FE3732 ;
+    margin-bottom: 10px;
+
+    
+}
+.card51{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 40%;
+
+}
+.card51 img{
+    position: relative;
+    top:8px;
+    right:10px;
+    
+}
+.card52 {
+    margin-left: 10%;
+}
+.forline{
+    width:100px;
+    background-color: aqua;
+}
+.card51 ul {
+    padding: 0px;
+}
+.card51 li {
+    padding: 10px;
+}
+
+.card6{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    border-radius: 30px;
+}
+.card6 .photos{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    margin-bottom: 50px; 
+}
+.card6 .photos img{
+    width:200px;
+    height:320px;
+}
+.card6 h1{
+    text-align: center;
+    height:50px;
+     margin-top:10px;
+}
+.card7{
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+    margin-top:40px;
+    display:flex;
+    
+
+}
+.card71{
+    margin-left:60px;
+
+}
+.card72 h1{
+    color:#FE3732;
+    border-bottom: 1px solid #FE3732 ;
+    width: 500px;
+}
+.card72{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 20px;
+
+}
+
+
+
+
+
+@media (max-width:430px) {
+    .card42 h1 {
+        color: #FE3732;
+        margin-left: 40px;
+        border-bottom: 1px solid #FE3732;
+        width: 225px;
+        font-size: 30px;
+    }
+
+    .last{
+        padding: 30px 8px;
+    }
+    .vr{
+        height:134px;
+    }
+    .card1 h1{
+        margin-left: 26px;
+        font-size: 14px;
+        padding-top:20px;
+    }
+    .card1 h1 .text-line{
+        width:233px;
+        margin-left :9px;
+
+    }
+    .card1 li{
+        text-align: left;
+        margin-left: -4%;
+        list-style: none;
+        width: 219px;
+    }
+
+    .card2{
+        display:flex;
+        flex-direction: column;
+
+    }
+    .card21{
+        background-color: white;
+        width: 217px;
+        padding: 5px 40px;
+        line-height: 30px;
+        border-radius: 20px;
+        padding-top: 50px;
+    }
+    .card21 h1 {
+        color: #FE3732;
+        border-bottom: 1px solid #FE3732;
+        height: 38px;
+        margin-bottom: 8px;
+        font-size: 15px;
+    }
+    .insideofsmallbox {
+        display: flex;
+        justify-content: space-between;
+        gap: -40px;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .card21-last ul {
+        margin-left: 4%;
+        
+    }
+    .card21-last ul li{
+        font-size: 14px;
+    }
+    .card22 {
+        display: flex;
+        flex-direction: column;
+        width: 291px;
+        border-radius: 20px;
+        margin-left: 7px;
+        padding: 20px 0px;
+        margin-top: 40px;
+    }
+    .card22 input {
+        width: 62%;
+        padding: 18px;
+        margin: 10px;
+        border: 1px solid black;
+        font-size: 16px;
+        margin-left: 38px;
+        height: 10px;
+    }
+    .card22 button {
+        width: 95px;
+        height: 34px;
+        margin-left: 101px;
+        border: 1px solid #FE3732;
+    }
+    .card3 h1 {
+        margin-left: 112px;
+        margin-bottom: 50px;
+        position: relative;
+        top: 20px;
+        color: #FE3732;
+    }
+    .card4 {
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        border-radius: 30px;
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-bottom: 40px;
+        flex-direction: column;
+    }
+    .card42 {
+        font-size: 20px;
+        margin-left: -55px;
+        font-size: 16px;
+        margin-top: -81px;
+    }
+    .card5 {
+        background-color: white;
+        display: flex;
+        margin-top: 40px;
+        border-radius: 40px;
+        justify-content: center;
+        gap: 90px;
+        flex-direction: column-reverse;
+    }
+    .card52 {
+        margin-left: -8%;
+    }
+    .card51 {
+        font-size: 20px;
+        margin-top: -122px;
+        margin-left: 40px;
+        width: 79%;
+    }
+    .card51 h1 {
+        color: #FE3732;
+        border-bottom: 1px solid #FE3732;
+        margin-bottom: -4px;
+        font-size: 32px;
+        width: 172px;
+    }
+    .card7 {
+        bacfkground-color: white;
+        border-radius: 30px;
+        position: relative;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    .card71 {
+        margin-left: -51px;
+    }
+    .card72 h1 {
+        color: #FE3732;
+        border-bottom: 1px solid #FE3732;
+        width: 181px;
+        font-size: 28px;
+    }
+    .card72 h1 {
+        color: #FE3732;
+        border-bottom: 1px solid #FE3732;
+        width: 181px;
+        font-size: 28px;
+        /* margin-left: 20px; */
+        margin: 10px 0 10px 37px;
+    }
+    .card72 {
+        margin-top: -31px;
+        margin-left: 14px;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .card6 .photos {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 50px;
+        flex-wrap: wrap;
+    }
+    .card6 .photos img {
+        width: 130px;
+        height: 163px;
+    }
+
+    /* .card1{
+        margin-left: 15px;
+    } */
+
+    .last {
+        font-size: 10px;
+        font-weight: 20px;
+        line-height: 18px;
+        margin-top: 0px;
+        width: 251px;
+        margin-left: 15px;
+    }
+    .first{
+        font-size: 12px;
+        margin-left: 15px;
+    }
+    .profit {
+        font-size: 18px;
+    }
+    .left-sec {
+        height: 330px;
+        width: 310px;
+    }
+    .down-content {
+        width: 185px;
+        height: 108px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .vr {
+        height: 88px;
+        margin-top: 11px;
+    }
+    .down-content h1 {
+        font-size: 22px;
+    }
+    .cr {
+        border: none;
+    }
+    .main1{
+        height:auto;
+    }
+
+
+    .down {
+        background-color: rgba(255, 255, 255, 0.50);
+        display: flex;
+        /* justify-content: space-between; */
+        margin-top: 21px;
+        margin-bottom: 0px;
+        height: 214px;
+        flex-wrap: wrap;
+        padding: 0;
+
+    }
+
+    .down-content h1 {
+        font-size: 22px;
+        width: 159px;
+    }
+    .card1{
+        padding: 0;
+    }
+    .smallbox{
+        padding: 10px 12px;
+        margin-top: 14px;
+
+    }
+    .card21-last p{
+        width:294px;
+        font-size: 14px;
+    }
+    .card22 h1{
+        margin-left: 34%;
+    }
+
+}
